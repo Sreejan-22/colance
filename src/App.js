@@ -1,9 +1,10 @@
 import "./App.css";
+import Signup from "./pages/Signup/Signup";
 
 function App() {
   return (
-    <div>
-      <h1>colance</h1>
+    <div style={{ height: "100%" }}>
+      <Signup />
     </div>
   );
 }
