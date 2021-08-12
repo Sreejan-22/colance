@@ -1,13 +1,12 @@
 import "./Signup.css";
 import TextField from "@material-ui/core/TextField";
 import { makeStyles } from "@material-ui/core";
-import signup from "../../assets/signup.svg";
+import sign_up_svg from "../../assets/sign_up_svg.svg";
 import google from "../../assets/google.svg";
 import apple from "../../assets/apple.svg";
 import facebook from "../../assets/facebook.svg";
 import { createTheme, ThemeProvider } from "@material-ui/core";
 
-// customizing our theme
 const theme = createTheme({
   palette: {
     primary: {
@@ -35,14 +34,13 @@ const Signup = () => {
       <div className={`signup-wrapper ${classes.root}`}>
         <div className="left-signup-part">
           <img
-            src={signup}
+            src={sign_up_svg}
             alt=""
-            // style={{ width: "100%", height: window.innerHeight }}
+            style={{ width: "100%", height: "100%" }}
           />
-          {/* <SignupSvg /> */}
         </div>
         <div className="right-signup-part">
-          <div className="signup-heading">Sign In</div>
+          <div className="signup-heading">Sign Up</div>
           <div className="signup-subheading">Welcome!</div>
           <form noValidate autoComplete="off" className="signup-form">
             <TextField

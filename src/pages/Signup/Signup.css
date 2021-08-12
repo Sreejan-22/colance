@@ -12,6 +12,10 @@
   width: 50%;
 }
 
+.left-signup-part {
+  background-color: #282c40;
+}
+
 .right-signup-part {
   display: flex;
   flex-direction: column;
