@@ -72,25 +72,11 @@ const Signup = () => {
               value="Sign Up"
               className="signup-submit-btn"
             />
-            <div
-              style={{
-                display: "flex",
-                justifyContent: "center",
-                alignContent: "center",
-                margin: "1rem 0rem 1rem 0rem",
-              }}
-            >
-              <div
-                className="line"
-                style={{ marginTop: "14px", marginRight: "6px" }}
-              ></div>
-              <div style={{ fontSize: "18px", color: "#B4B6C2" }}>
-                or continue with
+            <div className="continue-with-wrapper">
+              <div className="line"></div>
+              <div className="continue-with-text-wrapper">
+                <div className="continue-with-text">or continue with</div>
               </div>
-              <div
-                className="line"
-                style={{ marginTop: "14px", marginLeft: "6px" }}
-              ></div>
             </div>
             <div className="signup-logos">
               <div
