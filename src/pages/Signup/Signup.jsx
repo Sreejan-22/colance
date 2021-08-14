@@ -17,7 +17,7 @@ const theme = createTheme({
 
 const useStyles = makeStyles({
   root: {
-    fontFamily: "Manrope",
+    fontFamily: "DM Sans",
   },
   textField: {
     width: "510",

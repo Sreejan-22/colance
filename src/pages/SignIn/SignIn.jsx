@@ -17,7 +17,7 @@ const theme = createTheme({
 
 const useStyles = makeStyles({
   root: {
-    fontFamily: "Manrope",
+    fontFamily: "DM Sans",
   },
   textField: {
     width: "510",
@@ -61,6 +61,7 @@ const SignIn = () => {
             <a href="#" class="forgot-password-text">
               Forgot Password?
             </a>
+            <br />
             <input
               type="submit"
               value="Sign In"
